@@ -1,0 +1,12 @@
+import Link from 'next/link';
+export default function Home() {
+  return (
+    <main className="space-y-8">
+      <h1 className="text-3xl font-bold">AI Policy Builder for Schools</h1>
+      <p className="text-gray-600">District-ready AI policies, training slides, and parent letters — in minutes.</p>
+      <div className="space-x-3">
+        <Link href="/onboard" className="inline-block rounded bg-black px-4 py-2 text-white">Get Started</Link>
+      </div>
+    </main>
+  );
+}
